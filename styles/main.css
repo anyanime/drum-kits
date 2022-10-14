@@ -1,7 +1,10 @@
 
+body {
+background: url('./images/background.jpg');
+}
+
 html {
   font-size: 10px;
-  background: url('/background.jpg') bottom center;
   background-size: cover;
 }
 
@@ -14,7 +17,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 30vh;
   align-items: center;
   justify-content: center;
 }
@@ -49,4 +52,13 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 1000;
+    color: blueviolet;
+    font-family: Cambria;
+    padding-top: 2rem;
 }
