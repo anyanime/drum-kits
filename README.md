@@ -1,2 +1,2 @@
-# keyboard-app
-a practice keyboard app 
+# drum-kits
+a drum app that produces a particular sound on key press 
